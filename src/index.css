@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root{
+  --orange-primary: #FF6B35;
+  --purple-dark: #5B2C87;
+}
+html,body,#root{height:100%;}
+body{background:linear-gradient(135deg,#fff7f1 0%,#f8f4ff 100%); color: #2b0b3a; font-family: Inter, ui-sans-serif;}
+
+/* small helpers to mimic previous layout */
+.app-layout { @apply flex min-h-screen; }
+.sidebar { @apply w-64 bg-white/90 border-r border-purple-100/50 p-6; }
+.content { @apply flex-1 p-6; }
+.card { @apply bg-white/80 rounded-xl p-4 shadow-md; }
+.btn { @apply px-4 py-2 rounded-md bg-cled_purple text-white hover:opacity-90; }
+.map-wrapper { @apply h-96 rounded-xl overflow-hidden; }
+.logo-img { @apply w-10 h-10 object-contain; }

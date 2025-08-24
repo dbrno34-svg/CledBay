@@ -1,0 +1,1 @@
+export const SupplierSchema = { /* schema info - referenced for docs */ };
